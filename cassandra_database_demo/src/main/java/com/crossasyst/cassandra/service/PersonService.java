@@ -27,7 +27,7 @@ public class PersonService {
 
 
     public List<PersonResponse> findAll() {
-    return personMapper.entitiesToModel(personRepository.findAll());
+        return personMapper.entitiesToModel(personRepository.findAll());
     }
 
     public PersonResponse findPersonById(UUID id) {
@@ -35,14 +35,14 @@ public class PersonService {
         return personMapper.entityToModel(personRepository.findById(id).get());
     }
 
-    public PersonEntity createPerson(PersonRequest personRequest) {
+    public PersonResponse createPerson(PersonRequest personRequest) {
         PersonEntity personEntity = personMapper.modelToEntity(personRequest);
         personEntity.setDateTimeStamp(new Date());
         personEntity.setRegistrationDate(LocalDate.now());
         personRepository.save(personEntity);
 
 
-        return personEntity;
+        return personMapper.entityToModel(personEntity);
     }
 
     public PersonResponse getByLastName(String lastName) {

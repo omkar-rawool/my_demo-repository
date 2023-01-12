@@ -20,7 +20,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Table(value = "person")
 public class PersonEntity {
-    @PrimaryKey
+    @PrimaryKeyColumn(type = PrimaryKeyType.PARTITIONED,ordinal = 1)
 
     private UUID id = UUID.randomUUID();
 
