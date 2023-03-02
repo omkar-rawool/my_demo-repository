@@ -1,0 +1,11 @@
+D:\Developement\spring-security-snippet\src\main\java\com\crossasyst\config\UserInfoUserDetailsService.java
+D:\Developement\spring-security-snippet\src\main\java\com\crossasyst\repository\UserRepository.java
+D:\Developement\spring-security-snippet\src\main\java\com\crossasyst\config\SecurityConfig.java
+D:\Developement\spring-security-snippet\src\main\java\com\crossasyst\dto\Product.java
+D:\Developement\spring-security-snippet\src\main\java\com\crossasyst\service\JwtService.java
+D:\Developement\spring-security-snippet\src\main\java\com\crossasyst\dto\AuthRequest.java
+D:\Developement\spring-security-snippet\src\main\java\com\crossasyst\SpringSecurityLatestApplication.java
+D:\Developement\spring-security-snippet\src\main\java\com\crossasyst\config\UserInfoUserDetails.java
+D:\Developement\spring-security-snippet\src\main\java\com\crossasyst\entity\User.java
+D:\Developement\spring-security-snippet\src\main\java\com\crossasyst\controller\ProductController.java
+D:\Developement\spring-security-snippet\src\main\java\com\crossasyst\service\ProductService.java
