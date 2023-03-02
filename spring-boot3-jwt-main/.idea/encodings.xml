@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$MAVEN_REPOSITORY$/com/nextgen/pxp/spring-parent/3.0.0/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../NG_PAY_Services/pxp-pay-patient-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>
